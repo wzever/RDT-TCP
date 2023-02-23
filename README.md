@@ -1,2 +1,14 @@
 # RDT-TCP
-Course project of CS3611-Computer Networking of SJTU
+Course project of CS3611-Computer Networking (计算机网络) of SJTU
+
+本课程项目分为**调研综述**和**案例研究**两大部分，最终报告见`report.pdf`。
+
+## 调研综述
+基于 Kurose 和 Ross 的计算机网络教材中采纳的五级分层，依次对计算机网
+络中各层的核心内容进行梳理总结，并结合对技术前沿的调研概述其基本内容和发展脉络。
+
+## 案例研究
+案例研究中，我们依照课程项目选题，利用 python 编程实现了**基于流水线的可靠数据传输协议**（pipelined RDT protocol），
+对**回退 N 步（GBN）**和**选择重传（SR）**协议的细节和设计考量进行了探究；并在此基础上编程实现了一个简易的 **TCP 协议**，集中模拟和评估了序列号与连接控制机制、拥塞控制机制、超时间隔与可靠传输控制等方面的实现。
+
+值得指出的是，本项目题目亦由本组设计完成（见`project design.pdf`）, 并被择优作为课程项目开放选题之一。
